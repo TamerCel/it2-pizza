@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Signika:wght@300..700&display=swap');
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    min-width: 599px;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    --color-yellow: #FDC913;
+    --color-lightGray: #5F5F5F;
+    --color-darkGrey: #1A1A1A;
+    --color-red: #CE2829;
+    --color-bej: #FAF7F2;
+    --font-Roboto-Condensed: "Roboto+Condensed", sans-serif;
+    --font-Barlow: "Barlow", sans-serif;
+    --font-Quattrocento: "Quattrocento", sans-serif;
+    --font-Satisfy: "Satisfy", sans-serif;
+}
+
+
+.homePageHeader {
+    background-image: url("/public/homepage/home-banner.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 100rem;
+}
+
+.home {
+    margin-top: 1rem;
+    width: 60vw;
+    min-height: 40vh;
+
+}
+
+.text {
+    font-family: var(--font-Barlow);
+    color: var(--color-bej);
+    font-size: 4rem;
+    line-height: 1.3em;
+    
+}
+
+.aciktimButton {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--color-darkGrey);
+    border-radius: 1rem;
+    font-family: var(--font-Barlow);
+    width: 10rem;
+}
+
+.menuButton {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--color-darkGrey);
+    font-family: var(--font-Barlow);
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+.menuButton img {
+    margin-right: .5rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spaceBetween {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.displayCol {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.displayRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexStart {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+}
+
+.middleSection {
+    width: 60vw;
+    display: flex;
+    justify-self: center;
+    margin: 1rem 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+.cards div {
+    padding: .5rem;
+}
+
+.bigCard {
+    background-image: url("/public/products/cta/kart-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-radius: 1rem;
+    width: 30vw;
+}
+
+.bigCard h1 {
+    margin: 1rem;
+    font-family: var(--font-Quattrocento);
+    color: white;
+    font-size: 2.4rem;
+    width: 10rem;
+    font-weight: 600;
+}
+
+.bigCard p {
+    margin: 0;
+    margin-left: 1rem;
+    color: white;
+    font-family: var(--font-Barlow);
+}
+
+.pizzaOrderButton {
+    background-color: white !important;
+    color: var(--color-red) !important;
+    font-family: var(--font-Barlow);
+    width: 7rem;
+    border-radius: 1.5rem;
+    font-weight: 500;
+    margin: .5rem;
+}
+
+.lowCard {
+    background-image: url("/public/products/cta/kart-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border-radius: 1rem;
+    width: 30vw;
+}
+
+.lowCard h1 {
+    margin: 1rem;
+    font-family: var(--font-Barlow);
+    color: white;
+    font-size: 1.5rem;
+    width: 10rem;
+    font-weight: 500;
+}
+
+.lowCard h1 span {
+    color: var(--color-red);
+}
+
+.lowCard2 {
+    background-image: url("/public/products/cta/kart-3.png");
+}
+
+.darkg {
+    color: var(--color-darkGrey) !important;
+}
+
+.makeBej {
+    background-color: var(--color-bej);
+}
+
+.fontSatisfy {
+    font-family: var(--font-Satisfy);
+    font-size: 1.5rem;
+}
+.colorYellow{
+    color: var(--color-yellow);
+}
+.pizza {
+    width: 20rem;
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+    font-family: var(--font-Barlow);
+}
+
+.pizza :hover {
+    background-color: var(--color-bej);
+}
+
+.pizza h2 {
+    font-size: large;
+    font-weight: 600;
+}
+
+footer {
+    background-color: var(--color-darkGrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2rem;
+    color: var(--color-bej) !important;
+}
+
+.footerSection {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerSection div {
+    margin: 1rem;
+    width: 25vw;
+}
+
+.contact {
+    text-align: left !important;
+}
+
+.contact a {
+    display: flex;
+    padding: .5rem;
+    text-decoration: none;
+    color: var(--color-bej);
+}
+
+.contact img {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.contact h1 {
+    padding: 1rem;
+}
+
+.highlight {
+    font-family: Satisfy;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FDC913;   
+}
+
+@media (max-width:500px) {
+    .footerSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bigCard {
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .lowCard {
+        width: 70vw;
+        height: 70vw;
+        margin-bottom: 1rem;
+    }
+    .text {
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+   
+}

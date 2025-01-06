@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Signika:wght@300..700&display=swap');
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    min-width: 599px;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    --color-yellow: #FDC913;
+    --color-lightGray: #5F5F5F;
+    --color-darkGrey: #1A1A1A;
+    --color-red: #CE2829;
+    --color-bej: #FAF7F2;
+    --font-Roboto-Condensed: "Roboto+Condensed", sans-serif;
+    --font-Barlow: "Barlow", sans-serif;
+    --font-Quattrocento: "Quattrocento", sans-serif;
+    --font-Satisfy: "Satisfy", sans-serif;
+}
+
+/*{border: 1px purple solid;}*/
+
+
+.pt {
+    margin-right: 5rem;
+}
+
+.centerAll {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.displayRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.displayCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexStart {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.orderpage {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-Barlow) !important;
+    justify-content: space-between;
+background-color: white;
+margin-bottom: 2rem ;
+}
+
+.allMargin {
+    margin-top: 2rem;
+}
+
+.orderHeader {
+    background-color: var(--color-red);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+
+.headerIn {
+    width: 50vw;
+}
+
+.logo {
+    width: 45vw;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 2rem 0;
+}
+
+.links a {
+    color: white !important;
+    padding: 0 0.5rem;
+}
+
+.opacity {
+    opacity: 0.8;
+}
+
+.formDiv {
+    background-color: white;
+    color: var(--color-darkGrey);
+    display: flex;
+    flex-direction: column;
+    min-width: 70vw;
+    margin: 0 15rem;
+    max-width: 20vw
+}
+
+.productData {
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.chooseSize {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 40vw;
+}
+
+.colorRed {
+    color: var(--color-red);
+    font-weight: bold;
+}
+
+.materialsDiv {
+
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.materialsDiv label {
+    margin: 1vw;
+}
+
+.borderBottom {
+    border-bottom: var(--color-darkGrey) 1px solid;
+}
+
+button {
+    background-color: var(--color-yellow) !important;
+    color: var(--color-darkGrey) !important;
+    width: 2rem;
+    height: 3rem;
+}
+
+.state {
+    width: 2rem;
+    height: 3rem;
+    border: var(--color-darkGrey) 1px solid;
+    align-items: center;
+}
+
+.orderButton {
+    width: 25vw;
+    min-width: 15rem;
+    height: 5vh;
+}
+
+.orderDivIn {
+    border: var(--color-lightGray) 1px solid;
+    border-radius: .4rem;
+    width: 25vw;
+    min-width: 15rem;
+    padding: 2rem;
+}
+
+.orderDiv {
+    margin-top: 2rem;
+
+}
+
+.colorLightGray {
+    color: var(--color-lightGray);
+    font-weight: bold;
+}
+
+.makeWhite {
+    background-color: white;
+}
+
+.orderCompletedSection {
+    padding: 5rem;
+    background-color: var(--color-red);
+    color: var(--color-bej);
+    font-family: var(--font-Barlow);
+    height: 100vh;
+}
+
+.ordercompdiv {
+    border-bottom: var(--color-bej) 1px solid;
+    margin: 1rem 0;
+}
+
+.ordercompIn {
+    padding: 2rem 5rem;
+}
+
+.borderB {
+    border: var(--color-bej) 1px solid;
+    padding: 1rem;
+}
+
+@media (max-width:600px) {
+    .orderButton {
+        width: 5vw;
+        min-width: 30vw;
+        align-self: flex-end;
+    }
+
+    .orderDivIn {
+        margin-bottom: 2rem;
+        width: 70vw;
+        margin-left: -5rem;
+        margin-right: 1.5rem
+    }
+
+    .unitContainer {
+        margin-top: 13.6rem;
+
+    }
+}
