@@ -31,6 +31,7 @@ function Headerindex({ setChoosenOne, choosenOne }) {
                 </p>
                 <Button
                     className='aciktimButton'
+                    data-testid='aciktim-Button'
                     onClick={() => orderPage()}
                 >
                     ACIKTIM

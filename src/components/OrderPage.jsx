@@ -201,6 +201,7 @@ function OrderPage({ pizzaData,setChoosenOne }) {
                                 <FormGroup >
                                     <Input type='text'
                                         className="mb-3"
+                                        data-testid="adTest"
                                         placeholder="Adınızı giriniz"
                                         invalid={isValid.name}
                                         name="buyerName"
